@@ -1,0 +1,27 @@
+/* for transparency */
+.delBut {
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+    cursor: pointer;
+    font-size: 2em;
+    color: white;
+}
+
+.delBut:hover {
+    color: red;
+}
+
+.delBut:focus {
+    outline: none;
+}
+
+
+.todo {
+    border-bottom-style: solid;
+    cursor: pointer;
+    color: white;
+}
+
+.crossed {
+    text-decoration: line-through;
+}
